@@ -1,0 +1,155 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+/*************
+@Font Size
+ ************/
+ .page-heading {
+  font-size: 1.35rem;
+  color: #303942;
+}
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+input.input-field::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e8e8e8;
+}
+.text-lightblue {
+  color: #76c1e2;
+}
+.fs-small {
+  font-size: small;
+}
+.border-grey {
+  border: 2px solid #efefef;
+}
+.mb-50 {
+  margin-bottom: 50%;
+}
+.text-grey {
+  color: #efefef;
+}
+.input-field {
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #fcfcfc;
+  border-radius: 8px;
+}
+.input-group-text {
+  background-color: #fff;
+  border: none;
+  border-right: 2px solid #efefef;
+  width: 15%;
+}
+.mt-85 {
+  margin-top: 85px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.input-group-text .imageBackground {
+  background-color: #ddf3ff;
+  padding: 5px;
+  border-radius: 6px;
+}
+.image-class {
+  margin: 10% 10% 0 10%;
+}
+.w-65 {
+  width: 65%;
+}
+.textDetail {
+  margin-top: 10%;
+}
+.btn-darkblue {
+  background-image: linear-gradient(to right, #1f66ad, #113459);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 60%;
+  font-size: 18px;
+}
+
+.btn-gradiant-blue {
+  background-image: linear-gradient(45deg, #8CD4ED,  #105099);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  min-width: 15rem;
+  font-size: 18px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.icons {
+  width: 100%;
+}
+.inputCard {
+  border-radius: 15px;
+  border: none;
+}
+.rounded-15 {
+  border-radius: 15px;
+}
+.bg-grey {
+  background-image: linear-gradient(#efefef, #f2ebff);
+}
+
+/******** Employees ***************/
+.steps h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  span {
+    font-size: 1rem;
+    color:#747e89;
+    margin-left: 1rem;
+  }
+}
+.custom-table { 
+  width: 100%;
+  thead {
+    tr {
+      th{ 
+        color: #5C6874;
+        font-weight: 700;
+        padding: 0.5rem 1rem;
+        border-left: 1px solid #CDD2D6;
+        background: #ececec;
+       text-align: center;
+        &:first-child {
+          border-left: none;
+          border-radius: 0.75rem 0 0 0.75rem ;
+        }
+        &:last-child {  
+          border-radius: 0 0.75rem  0.75rem 0;
+        }
+       }
+    }
+    }
+    tbody {
+      tr {
+        td{ 
+          color: #919DA8;
+          font-weight: normal;
+          padding: 0.5rem 1rem;
+          border-bottom: 1px solid #ececec;
+         text-align: center;
+         font-size: 0.96rem;
+         }
+      }
+      }
+ 
+}

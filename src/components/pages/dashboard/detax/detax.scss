@@ -1,0 +1,29 @@
+.card {
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 2px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  //   width: 80px;
+  //   height: 80px;
+}
+
+.btn {
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+table {
+  border-radius: 20px;
+  box-shadow: 1px 6px 21px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 14px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 6px 14px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 6px 14px -1px rgba(0, 0, 0, 0.75);
+}
+tr {
+  border-radius: 20px;
+}
